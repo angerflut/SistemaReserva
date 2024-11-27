@@ -1,0 +1,57 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .left-space {
+    flex: 2; /* Ocupa más espacio para el mapa */
+  }
+  
+  .table-list {
+    flex: 1; /* Ocupa menos espacio para la lista */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-map {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .map-table {
+    position: absolute;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: grab;
+    text-align: center;
+    font-size: 12px;
+    width: 60px;
+  }
+  
+  .map-table:active {
+    cursor: grabbing;
+  }
+  
+  .table-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .table-item p {
+    margin: 5px 0;
+  }
+  

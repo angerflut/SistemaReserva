@@ -1,0 +1,57 @@
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-header button {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .days-of-week {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Asegura que la fila de los días de la semana ocupe el 100% del ancho */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .day, .days-of-week span {
+    width: calc(100% / 7); /* Asegura que cada día (y cada nombre de día) ocupe un 1/7 del ancho */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Asegura que el borde no afecte el tamaño total */
+  }
+  
+  .empty {
+    background-color: #f0f0f0;
+  }
+  
+  .day:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .weeks {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Asegura que las semanas ocupen el 100% del ancho */
+  }
+  
+  .week {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Asegura que las celdas de la semana estén distribuidas uniformemente */
+  }
+  

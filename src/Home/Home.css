@@ -1,0 +1,84 @@
+/* General Layout */
+.home-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-actions a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-actions .login-button,
+.navbar-actions .register-button,
+.navbar-actions .admin-dashboard-link {
+  padding: 5px 10px;
+  background-color: #555;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-actions .login-button:hover,
+.navbar-actions .register-button:hover,
+.navbar-actions .admin-dashboard-link:hover {
+  background-color: #777;
+}
+
+.navbar-actions .logout-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-actions .logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Welcome Message */
+.welcome-message {
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+/* Main Content Styles */
+.home-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: #666;
+}
